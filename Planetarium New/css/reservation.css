@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Space mono, sans-serif;
+  background: #131520;
+  
+}
+/* Navbar */
+.navbar img{
+  width: 140px;
+  display: block;
+  margin-top: -15px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  height: 100px;
+  background: linear-gradient(50deg, rgba(63, 63, 63, 0.8) 0%, rgba(255, 255, 255, 0) 60%);
+  position: sticky;
+  top: 0;
+  width: 100%; 
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li a {
+ padding: 20px ;
+ text-decoration: none;
+ color: #fff;
+}
+
+.navbar ul li a:hover {
+ background:  orangered;
+ padding: 10px;
+ border-radius: 8px;
+}
+
+/* Footer */
+
+#footer {
+  height: 15vh;
+  background: linear-gradient(50deg, rgba(63, 63, 63, 0.8) 0%, rgba(255, 255, 255, 0) 60%);
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer ul{
+ display: flex;
+ justify-content: center;
+ padding-top: 40px;
+ list-style: none;
+}
+
+#footer ul li a{
+ padding:20px ;
+ text-decoration: none;
+ color: #fff;
+}
+
+#footer img {
+  width: 140px;
+  display: block;
+  padding: 30px  ;
+  position: absolute;
+  align-items: center;
+}
+
+.social{
+  display: flex;
+  float: right;
+  align-items: center;
+  color: #fff;
+  padding: 0 30px;
+}
+
+.social i {
+  padding: 0 20px;
+}
+
+.social {
+  margin-top: -20px;
+  padding-right: 20px;
+}
+
+#footer p {
+ margin: 50px auto;
+text-align: center;
+color: #fff;
+ margin-left: 35px; 
+}

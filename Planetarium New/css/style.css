@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Space mono, sans-serif;
+  background: #131520;
+  
+}
+/* Navbar */
+.navbar img{
+  width: 140px;
+  display: block;
+  margin-top: -15px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  height: 100px;
+  background: linear-gradient(50deg, rgba(63, 63, 63, 0.8) 0%, rgba(255, 255, 255, 0) 60%);
+  position: sticky;
+  top: 0;
+  width: 100%; 
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li a {
+ padding: 20px ;
+ text-decoration: none;
+ color: #fff;
+}
+
+.navbar ul li a:hover {
+ color:  orangered;
+ 
+}
+
+.cosmonaut img{
+  width: 50%;
+ display: flex;
+ margin: auto;
+}
+
+.text{
+margin:470px  auto;
+line-height: 1.5;
+}
+
+.text h1{
+  border-left: 5px solid orangered;
+  border-right: 5px solid orangered;
+  padding: 0 20px;
+  margin-left: 10px;
+  }
+
+  .cosmonaut button {
+    background: pink;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    margin: 20px;
+    font-weight: bold;
+  }
+  .cosmonaut button:hover {
+    background: goldenrod ;
+    cursor: pointer;
+  }
+
+ .cosmonaut span {
+   color: pink;
+ }
+
+/* Section Planet */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-top: 100px;
+}
+
+.barre {
+  border-bottom: 3px solid pink;
+  width: 400px;
+  margin: 100px auto;
+}
+
+.icon {
+  padding: 50px;
+}
+
+.icon img{
+  margin-bottom: 10px;
+  width: 40px;
+}
+
+#planet button {
+  background: orangered;
+  padding: 12px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 10px;
+}
+
+#planet button:hover {
+ background: goldenrod;
+ cursor: pointer;
+}
+
+/* Section 2 */
+.card {
+  display: flex;
+}
+
+.destination-text {
+  text-align: center;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.destination-text h1{
+ margin-bottom: 20px;
+}
+
+/* Voyage */
+#voyage {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#voyage img {
+  width: 500px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.description {
+  padding: 0  40px;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.description {
+  margin-top: 70px;
+}
+
+.description h1 {
+  margin-bottom: 5px;
+}
+
+.description span {
+  color: orangered;
+}
+
+
+.description button {
+  background: orangered;
+  padding: 12px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 10px;
+}
+
+.description a {
+   color: #fff;
+   text-decoration: none;
+}
+
+/* Testimonial */
+
+.avis-clients {
+  text-align: center;
+  margin-top: 200px;
+  color: #fff;
+}
+#testimonial img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+#testimonial {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  max-width: 1100px;
+  margin-top: 150px;
+}
+
+.clients p{
+ margin-top: 10px;
+ color: #fff;
+}
+
+.clients h3{
+  color: orangered;
+}
+
+
+.clients {
+  padding:  30px;
+  text-align: center;
+  
+}
+
+/* Footer */
+
+#footer {
+  height: 15vh;
+  background: linear-gradient(50deg, rgba(63, 63, 63, 0.8) 0%, rgba(255, 255, 255, 0) 60%);
+  margin-top: 100px;
+  align-items: center;
+  
+}
+
+#footer ul{
+ display: flex;
+ justify-content: center;
+ padding-top: 40px;
+ list-style: none;
+}
+
+#footer ul li a{
+ padding:20px ;
+ text-decoration: none;
+ color: #fff;
+}
+
+#footer img {
+  width: 140px;
+  display: block;
+  padding: 30px  ;
+  position: absolute;
+  align-items: center;
+}
+
+.social{
+  display: flex;
+  float: right;
+  align-items: center;
+  color: #fff;
+  padding: 0 30px;
+}
+
+.social i {
+  padding: 0 20px;
+}
+
+.social {
+  margin-top: -20px;
+  padding-right: 20px;
+}
+
+#footer p {
+ margin-top: 1.5rem;
+text-align: center;
+color: #fff;
+ margin-left: 35px; 
+}
+
+/* Reservation Pages */
+
+
+#reservation {
+  border: 1px solid #fff;
+  width: 500px;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+  padding: 3rem;
+  margin-top: 100px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+#reservation input {
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+#reservation p {
+ padding: 5px;
+}
+
+#reservation button {
+ background: #fff;
+ padding: 10px 10px ;
+ margin-top: 30px;
+ width: 100%;
+ border-radius: 5px;
+ background: orangered;
+ color: #fff;
+ font-size: 1rem;
+ font-weight: bold;
+ outline: none;
+ cursor: pointer;
+}
+
+.date {
+  margin-top: 20px;
+}
+
+#reservation button:hover {
+   background:goldenrod ;
+ }
+
+#reservation h2 {
+margin-bottom: 10px;
+}
+
+.select {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.select select{
+ margin-left: 30px;
+}
+
+/* Contact */
+#reservation textarea {
+  width: 100%;
+  margin-top: 10px;
+  height: 100%;
+  padding: 10px;
+  outline: none;
+
+}
+
+/* Media queries */
+
+@media all and (min-width:320px) and (max-width: 600px) {
+  .navbar ul {
+  display: none;
+  }
+
+  .navbarul li a {
+    display: none;
+  }
+
+  .navbar img {
+   margin: auto;
+   width: 50%;
+  }
+
+  #voyage img {
+   width: 100%;
+   margin: auto;
+  }
+
+  .navbar  {
+   height: 20vh;
+   
+  }
+
+  .cosmonaut img {
+    width:70% ;
+    margin-top: 20px;
+    margin-left: 10%;
+  }
+  .container {
+    width: 100%;
+  }
+  
+  #footer img {
+   display: none;
+  }
+
+  #footer a{
+   font-size: 10px;
+  }
+
+  #footer p {
+   margin-top: ;
+   font-size: 10px;
+   text-align: center;
+  }
+
+  #reservation {
+    width: 100%;
+    border: none;
+    
+  }
+ }
+
+ @media all and (max-width:768px) {
+  .container {
+    display: block;
+  }
+
+  .container img {
+    width: 15%;
+  }
+
+  .container h3 {
+    font-size: 2rem;
+  }
+  .container p {
+    font-size: 1rem;
+  }
+
+  #voyage {
+    display: block;
+  }
+
+  #testimonial {
+    display: block;
+  }
+
+}
+
+ @media screen and (max-width:968px) {
+  #footer ul{
+    display: flex;
+    padding-top: 40px;
+    list-style: none;
+   }
+
+   .social i {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width:1100px) {
+  #testimonial {
+    display: block;
+    margin-top: 50px;
+  }
+
+}
+
+@media screen and (max-width:1368px) {
+  #voyage {
+    display: block;
+    
+  }
+
+  #voyage img{
+    width: 50%;
+    
+  }
+
+ 
+}
+
+
+
+
+
+
+
